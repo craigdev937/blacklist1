@@ -1,15 +1,11 @@
 import React from "react";
 import "./App.css";
-import Red from "../img/Red.jpg";
+import { Main } from "../routes/Main";
 
 export const App = (): JSX.Element => {
     return (
         <React.Fragment>
-            <h1>Raymond</h1>
-            <img 
-                alt="Raymond" src={Red}
-                height="600rem" width="auto"
-            />
+            <Main />
         </React.Fragment>
     );
 };
