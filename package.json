@@ -1,5 +1,5 @@
 {
-  "name": "blacklist1",
+  "name": "youngjustice1",
   "version": "1.0.0",
   "description": "",
   "main": "index.tsx",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/craigdev937/blacklist1.git"
+    "url": "git+https://github.com/craigdev937/youngjustice1.git"
   },
   "keywords": [
     "React",
@@ -26,9 +26,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/craigdev937/blacklist1/issues"
+    "url": "https://github.com/craigdev937/youngjustice1/issues"
   },
-  "homepage": "https://github.com/craigdev937/blacklist1#readme",
+  "homepage": "https://github.com/craigdev937/youngjustice1#readme",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
     "react": "^18.2.0",

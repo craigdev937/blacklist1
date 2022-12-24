@@ -18,7 +18,7 @@ export const Navbar = (): JSX.Element => {
         <React.Fragment>
             <nav className="navbar">
                 <Link className="navbar__logo" to="/" >
-                    <h3>The <span>Blacklist</span></h3>
+                    <h3>Young <span>Justice</span></h3>
                 </Link>
                 <aside 
                     className="navbar__icon"

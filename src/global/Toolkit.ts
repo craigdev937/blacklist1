@@ -2,10 +2,12 @@ import { configureStore } from "@reduxjs/toolkit";
 import { TypedUseSelectorHook, useSelector, 
     useDispatch } from "react-redux";
 import { EpisodeReducer } from "./EpisodeSlice";
+import { FavoriteReducer } from "./FavoriteSlice";
 
 export const Reducer = configureStore({
     reducer: {
-        episodes: EpisodeReducer
+        episodes: EpisodeReducer,
+        favorites: FavoriteReducer
     }
 });
 

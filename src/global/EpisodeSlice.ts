@@ -1,6 +1,7 @@
 import { createSlice, PayloadAction, 
     createAsyncThunk } from "@reduxjs/toolkit";
-import { IEpisode, IEpisodeState } from "../models/Interfaces";
+import { IEpisode, 
+    IEpisodeState } from "../models/Interfaces";
 
 const initialState: IEpisodeState = {
     episodes: [],
@@ -34,10 +35,6 @@ const EpisodeSlice = createSlice({
 export const EpisodeReducer = EpisodeSlice.reducer;
 
 const URL = "https://api.tvmaze.com/singlesearch/shows?q=young+justice&embed=episodes";
-// const URL = "https://api.tvmaze.com/singlesearch/shows?q=scandal&embed=episodes";
-// const URL = "https://api.tvmaze.com/singlesearch/shows?q=invincible&embed=episodes";
-// const URL = "https://api.tvmaze.com/singlesearch/shows?q=rick-&-morty&embed=episodes";
-// const URL = "https://api.tvmaze.com/singlesearch/shows?q=the%20blacklist&embed=episodes";
 export const getEpisodes = 
 createAsyncThunk("episodes/getEpisodes", 
 async () => {
