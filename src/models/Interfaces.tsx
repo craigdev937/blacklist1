@@ -20,7 +20,7 @@ export interface IEpisode {
 export interface IEpisodeState {
     episodes: IEpisode[],
     loading: boolean,
-    error?: Error | null
+    error: Error | null
 };
 
 export interface IFavorite {
