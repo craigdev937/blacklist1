@@ -35,7 +35,8 @@ const EpisodeSlice = createSlice({
 export const EpisodeReducer = EpisodeSlice.reducer;
 
 // const URL = "https://api.tvmaze.com/singlesearch/shows?q=young+justice&embed=episodes";
-const URL = "https://api.tvmaze.com/singlesearch/shows?q=wednesday&embed=episodes";
+const URL = "https://api.tvmaze.com/singlesearch/shows?q=arcane&embed=episodes";
+// const URL = "https://api.tvmaze.com/singlesearch/shows?q=wednesday&embed=episodes";
 // const URL = "https://api.tvmaze.com/singlesearch/shows?q=scandal&embed=episodes";
 // const URL = "https://api.tvmaze.com/singlesearch/shows?q=invincible&embed=episodes";
 // const URL = "https://api.tvmaze.com/singlesearch/shows?q=the%20blacklist&embed=episodes";

@@ -2,6 +2,7 @@ export interface IEpisode {
     id: number,
     url: string,
     name: string,
+    officialSite: string,
     season: number
     number: number,
     type: string,

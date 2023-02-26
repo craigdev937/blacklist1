@@ -15,6 +15,7 @@ export const List = ({episode}: EPI): JSX.Element => {
                     alt={episode.name}
                     src={episode.image.medium} 
                 />
+                <a href={episode.officialSite}><button>Site</button></a>
             </main>
         </React.Fragment>
     );
